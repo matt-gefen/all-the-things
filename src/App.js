@@ -136,6 +136,14 @@ const App = () => {
       attributes: ["glorious", "bird", "not a robot", "real"],
     }
   ])
+  
+  const [chrisThings, setChrisThings] = useState([
+    {
+      name: "energy drinks",
+      image: "https://imgs.xkcd.com/comics/functional.png",  
+      attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+  ])
 
   return (
     <Routes>
