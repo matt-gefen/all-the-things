@@ -128,6 +128,13 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ])
+  const [jansThings, setJansThings] = useState([
+    {
+      name: "Homemade Döner Kebab",
+      image: "https://i.imgur.com/BbZpxk0.jpg",  
+      attributes: ["scrumptious", "good", "not a taco", "beautiful"],
+    },
+  ])
 
   return (
     <Routes>
