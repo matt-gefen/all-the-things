@@ -7,6 +7,7 @@ import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import RandomThings from './pages/RandomThings/RandomThings'
 import Landing from './pages/Landing/Landing'
+import MattsThings from './pages/MattsThings/MattsThings'
 
 const App = () => {
   const [shahzadsThings, setShazadsThings] = useState([
@@ -177,6 +178,10 @@ const App = () => {
         path="/the-random-things"
         element={<RandomThings 
         things={chrisThings} />}
+      />
+      <Route
+        path="/the-matt-things"
+        element={<MattsThings things={mattsThings} />}
       />
     </Routes>
   )
