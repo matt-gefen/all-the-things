@@ -6,6 +6,7 @@ import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import MattsThings from './pages/MattsThings/MattsThings'
 
 const App = () => {
   const [shahzadsThings, setShazadsThings] = useState([
@@ -171,6 +172,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-matt-things"
+        element={<MattsThings things={mattsThings} />}
       />
     </Routes>
   )
