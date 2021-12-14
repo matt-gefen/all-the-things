@@ -5,6 +5,7 @@ import ManliestThings from './pages/ManliestThings/ManliestThings'
 import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
+import RandomThings from './pages/RandomThings/RandomThings'
 import Landing from './pages/Landing/Landing'
 import MattsThings from './pages/MattsThings/MattsThings'
 
@@ -172,6 +173,11 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route 
+        path="/the-random-things"
+        element={<RandomThings 
+        things={chrisThings} />}
       />
       <Route
         path="/the-matt-things"
