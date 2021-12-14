@@ -129,6 +129,14 @@ const App = () => {
     },
   ])
 
+  const [mattsThings, setMattsThings] = useState([
+    {
+      name: "Potoo",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6QPaLhNcZ_gSW8mzDvEYPMVOGyFf8OJLbTA&usqp=CAU",  
+      attributes: ["glorious", "bird", "not a robot", "real"],
+    }
+  ])
+  
   const [chrisThings, setChrisThings] = useState([
     {
       name: "energy drinks",
